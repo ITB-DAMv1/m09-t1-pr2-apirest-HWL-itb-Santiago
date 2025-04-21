@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Server</name>
+    </assembly>
+    <members>
+        <member name="M:T1_APIREST.Controllers.AuthController.ProvaToken">
+            <summary>
+            Prueba de token
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:T1_APIREST.Controllers.AuthController.Register(Server.DTO.RegisterDTO)" -->
+        <member name="M:T1_APIREST.Controllers.AuthController.AdminRegister(Server.DTO.RegisterDTO)">
+            <summary>
+            Registro de usuario administrador
+            </summary>
+        </member>
+        <member name="M:T1_APIREST.Controllers.AuthController.Login(Server.DTO.LoginDTO)">
+            <summary>
+            Login de usuario - se le asigna el rol adecuado
+            </summary>
+        </member>
+        <member name="M:T1_APIREST.Controllers.AuthController.CreateToken(System.Security.Claims.Claim[])">
+            <summary>
+            Creació del token
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Server.Controllers.GamesController.GetAllGames" -->
+        <member name="M:Server.Controllers.GamesController.GetGameById(System.Int32)">
+            <summary>
+            Consulta juego por id
+            </summary>
+        </member>
+        <member name="M:Server.Controllers.GamesController.GetGameByTitle(System.String)">
+            <summary>
+            Consulta juego por titulo   
+            </summary>
+        </member>
+        <member name="M:Server.Controllers.GamesController.CreateGame(Server.DTO.GameDTO)">
+            <summary>
+            Crea un nuevo juego - solo admins
+            </summary>
+        </member>
+        <member name="M:Server.Controllers.GamesController.UpdateGame(System.Int32,Server.DTO.GameDTO)">
+            <summary>
+            Actualiza un juego - solo admins
+            </summary>
+        </member>
+        <member name="M:Server.Controllers.GamesController.DeleteGame(System.Int32)">
+            <summary>
+            Elimina un juego - solo admins
+            </summary>
+        </member>
+        <member name="M:Server.Controllers.GamesController.VoteGame(System.Int32)">
+            <summary>
+            Permite votar un juego - solo usuarios autenticados
+            </summary>
+        </member>
+        <member name="M:Server.Controllers.GamesController.UnvoteGame(System.Int32)">
+            <summary>
+            Permite desvotar un juego - solo usuarios autenticados
+            </summary>
+        </member>
+        <member name="M:Server.Controllers.UsersController.GetPerfil">
+            <summary>
+            Consulta el perfil del usuario con sus atributos
+            </summary>
+        </member>
+        <member name="T:Server.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Server.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Server.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Server.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

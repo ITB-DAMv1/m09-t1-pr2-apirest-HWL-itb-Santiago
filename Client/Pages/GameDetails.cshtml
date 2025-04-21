@@ -1,0 +1,55 @@
+﻿@page "/GameDetails/{id:int}"
+@model Client.Pages.GameDetailsModel
+@{
+    ViewData["Title"] = "Detalls del Joc";
+    var loggedIn = Client.Tools.TokenHelper.IsTokenSession(HttpContext.Session.GetString("AuthToken"));
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-5 text-center">
+                <img src="@Model.Game.Imagen" alt="Imatge del joc" class="img-fluid rounded" style="max-height: 300px;" />
+            </div>
+            <div class="col-md-7">
+                <h2 class="fw-bold">@Model.Game.Titulo</h2>
+                <p class="text-muted mb-1">
+                    <i class="bi bi-calendar-event-fill"></i>
+                    <strong>Data de creació:</strong> @Model.Game.Fecha_Lanzamiento.ToShortDateString()
+                </p>
+                <p class="mb-2">
+                    <i class="bi bi-code-slash"></i>
+                    <strong>Equip desenvolupador:</strong> @Model.Game.Desarrollador
+                </p>
+                <p>
+                    <i class="bi bi-card-text"></i>
+                    <strong>Descripció:</strong><br />
+                    @Model.Game.Descripcion
+                </p>
+                <p>
+                    <span class="badge bg-success fs-6">
+                        <i class="bi bi-hand-thumbs-up-fill"></i> @Model.Game.Numero_Votos Vots
+                    </span>
+                </p>
+                <div class="d-flex flex-wrap gap-2">
+                    @if (loggedIn)
+                    {
+                        <form method="post" asp-page-handler="Vote" asp-route-id="@Model.Game.Id" class="d-inline">
+                            <button type="submit" class="btn btn-outline-success btn-sm" title="Votar">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                            </button>
+                        </form>
+                        <form method="post" asp-page-handler="UnVote" asp-route-id="@Model.Game.Id" class="d-inline">
+                            <button type="submit" class="btn btn-outline-danger btn-sm" title="Retirar voto">
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                            </button>
+                        </form>
+                    }
+                </div>
+                <a asp-page="/AllGames" class="btn btn-outline-primary mt-3">
+                    <i class="bi bi-arrow-left"></i> Tornar a la llista
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

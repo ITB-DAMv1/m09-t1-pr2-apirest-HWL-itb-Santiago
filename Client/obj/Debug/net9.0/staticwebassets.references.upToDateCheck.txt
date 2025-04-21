@@ -1,0 +1,1 @@
+C:\Users\isard\source\repos\ApiTest1\obj\Debug\net9.0\staticwebassets.build.json

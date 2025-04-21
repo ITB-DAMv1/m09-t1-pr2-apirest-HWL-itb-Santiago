@@ -1,0 +1,23 @@
+﻿@page
+@model PerfilModel
+@{
+    ViewData["Title"] = "Perfil";
+}
+
+<h2>Perfil de @Model.Usuario?.Nombre</h2>
+<p>Email: @Model.Usuario?.Email</p>
+
+<h4>Juegos votados:</h4>
+@if (Model.Usuario?.Games == null || !Model.Usuario.Games.Any())
+{
+    <p>No has votado ningún juego todavía.</p>
+}
+else
+{
+    <ul>
+        @foreach (var game in Model.Usuario.Games)
+        {
+            <li><strong>@game.Titulo</strong> - @game.Descripcion (Votos: @game.Numero_Votos)</li>
+        }
+    </ul>
+}

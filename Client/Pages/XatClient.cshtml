@@ -1,0 +1,76 @@
+﻿@page
+@model Client.Pages.XatClientModel
+@{
+    ViewData["Title"] = "Xat Client";
+    var token = HttpContext.Session.GetString("AuthToken");
+    var loggedIn = Client.Tools.TokenHelper.IsTokenSession(token);
+    var username = loggedIn ? Client.Tools.TokenHelper.GetUserName(token) : "Anonymous";
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">💬 Xat en temps real</h3>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="missatge" class="form-label">Missatge:</label>
+                <div class="input-group">
+                    <input id="missatge" class="form-control" placeholder="Escriu un missatge" />
+                    <button onclick="enviaMissatge()" class="btn btn-primary">Envia</button>
+                </div>
+            </div>
+
+            <ul id="missatges" class="list-group list-group-flush border rounded" style="max-height: 300px; overflow-y: auto;">
+                <!-- Missatges -->
+            </ul>
+        </div>
+        <div class="card-footer text-muted text-end">
+            Usuari: <strong>@username</strong>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/SignalR/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script>
+        const connexio = new signalR.HubConnectionBuilder()
+            .withUrl("https://localhost:7215/XatHub", {
+                accessTokenFactory: () => "@token"
+            })
+            .withAutomaticReconnect()
+            .build();
+
+        connexio.on("RepMissatge", (usuari, missatge) => {
+            const entrada = document.createElement("li");
+            entrada.className = "list-group-item";
+            entrada.innerHTML = `<strong>${usuari}:</strong> ${missatge}`;
+            document.getElementById("missatges").appendChild(entrada);
+
+            // Scroll automático hacia abajo
+            const contenedor = document.getElementById("missatges");
+            contenedor.scrollTop = contenedor.scrollHeight;
+        });
+
+        connexio.start()
+            .then(() => console.log("Connectat a SignalR"))
+            .catch(err => console.error("Error de connexió:", err));
+
+        const loggedIn = "@loggedIn" === "True"; // Comparar correctamente
+
+        function enviaMissatge() {
+            if (!loggedIn) {
+                alert("Només els usuaris autenticats poden enviar missatges.");
+                return;
+            }
+
+            const missatge = document.getElementById("missatge").value.trim();
+            if (missatge === "") return;
+
+            connexio.invoke("EnviarMissatge", missatge)
+                .catch(err => console.error("Error en enviar:", err));
+
+            document.getElementById("missatge").value = "";
+        }
+    </script>
+}
