@@ -9,6 +9,7 @@ Este repositorio contiene un backend construido con una API REST y un frontend u
 ## START
 
 Para iniciar esta aplicacion debes buscar primero la solucion del proyecto, la cual se encuentra dentro de la carpeta Server y se llama **GameJamITB_SantiagoVergaraRodriguez.sln**
+SE DEBE DE TENER UNA BASE DE DATOS SQL LLAMADA "GamesDatabase" o de lo contrario, modificar la ruta desde el appsettings.json
 
 
 ## Estructura del Backend
