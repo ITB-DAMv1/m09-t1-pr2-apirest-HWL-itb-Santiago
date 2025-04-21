@@ -1,7 +1,4 @@
-# Backend API con Razor Pages
-
-#GAME JAM ITB
-##API (Backend y Frontend)
+#GAME JAM ITB API
 
 Este repositorio contiene un backend construido con una API REST y un frontend utilizando Razor Pages. El backend está compuesto por tres controladores:
 
@@ -9,7 +6,7 @@ Este repositorio contiene un backend construido con una API REST y un frontend u
 - **GamesController**: Permite interactuar con los juegos (crear, editar, eliminar, votar).
 - **UsersController**: Permite consultar y gestionar los perfiles de usuario.
 
-##START
+#START
 
 Para iniciar esta aplicacion debes buscar primero la solucion del proyecto, la cual se encuentra dentro de la carpeta Server y se llama **GameJamITB_SantiagoVergaraRodriguez.sln**
 
@@ -24,15 +21,6 @@ Este controlador maneja la autenticación y los registros de usuarios y administ
 - **POST `/api/auth/admin/registre`**: Registra un nuevo usuario administrador.
 - **POST `/api/auth/login`**: Inicia sesión y devuelve un token JWT.
 - **GET `/api/auth/prova`**: Devuelve información básica del usuario autenticado.
-
-#### Ejemplo de Registro de Usuario
-```json
-{
-  "Name": "Juan",
-  "Email": "juan@example.com",
-  "Surname": "Pérez",
-  "Password": "securepassword"
-}
 
 ### 2. **GamesController** (Gestion de juegos)
 Este controlador permite crear, leer, actualizar, eliminar y votar juegos.
