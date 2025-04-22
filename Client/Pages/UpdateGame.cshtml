@@ -1,0 +1,38 @@
+﻿@page "{id:int}"
+@model Client.Pages.UpdateGameModel
+@{
+    ViewData["Title"] = "Update Game";
+    var loggedIn = Client.Tools.TokenHelper.IsTokenSession(HttpContext.Session.GetString("AuthToken"));
+    var rol = Client.Tools.TokenHelper.GetUserRole(HttpContext.Session.GetString("AuthToken"));
+}
+
+@if (!loggedIn || rol != "Admin")
+{
+    <div class="alert alert-danger">
+        No tens permisos per accedir a aquesta pàgina.
+    </div>
+}
+else
+{
+    <h2>Editar Joc</h2>
+    <form method="post">
+        <input type="hidden" asp-for="Game.Id" />
+        <div class="form-group">
+            <label asp-for="Game.Titulo"></label>
+            <input asp-for="Game.Titulo" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Game.Descripcion"></label>
+            <textarea asp-for="Game.Descripcion" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="Game.Desarrollador"></label>
+            <input asp-for="Game.Desarrollador" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Game.Fecha_Lanzamiento"></label>
+            <input asp-for="Game.Fecha_Lanzamiento" type="date" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Actualitzar</button>
+    </form>
+}

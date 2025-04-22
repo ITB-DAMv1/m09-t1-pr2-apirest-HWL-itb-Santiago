@@ -3,6 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\signinadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\allgames.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\creategame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\creategame.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16386FB6-19E8-4B56-98E2-6B8A6774F405}|Server.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\server\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16386FB6-19E8-4B56-98E2-6B8A6774F405}|Server.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16386FB6-19E8-4B56-98E2-6B8A6774F405}|Server.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\server\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16386FB6-19E8-4B56-98E2-6B8A6774F405}|Server.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\signinadmin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\signin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16386FB6-19E8-4B56-98E2-6B8A6774F405}|Server.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16386FB6-19E8-4B56-98E2-6B8A6774F405}|Server.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\allgames.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\updategame.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\updategame.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B7482F2-FB16-F607-13CC-AB0BA2729980}|..\\Client\\Client.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\client\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16386FB6-19E8-4B56-98E2-6B8A6774F405}|Server.csproj|c:\\users\\isard\\desktop\\santiago\\m09-t1-pr2-apirest-hwl-itb-santiago\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{16386FB6-19E8-4B56-98E2-6B8A6774F405}|Server.csproj|solutionrelative:server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -60,24 +114,230 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateGame.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\CreateGame.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\CreateGame.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\CreateGame.cshtml.cs",
+              "RelativeToolTip": "..\\Client\\Pages\\CreateGame.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T00:05:43.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T00:04:59.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateGame.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\CreateGame.cshtml",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\CreateGame.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\CreateGame.cshtml",
+              "RelativeToolTip": "..\\Client\\Pages\\CreateGame.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T00:04:52.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Signin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Signin.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\Signin.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Signin.cshtml.cs",
+              "RelativeToolTip": "..\\Client\\Pages\\Signin.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:54:22.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Signin.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Signin.cshtml",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\Signin.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Signin.cshtml",
+              "RelativeToolTip": "..\\Client\\Pages\\Signin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T23:53:00.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:52:29.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SigninAdmin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\SigninAdmin.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\SigninAdmin.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\SigninAdmin.cshtml.cs",
+              "RelativeToolTip": "..\\Client\\Pages\\SigninAdmin.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:51:22.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Login.cshtml",
+              "RelativeToolTip": "..\\Client\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T23:51:00.714Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Server",
+              "Title": "SigninAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\SigninAdmin.cshtml",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\SigninAdmin.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\SigninAdmin.cshtml",
+              "RelativeToolTip": "..\\Client\\Pages\\SigninAdmin.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T23:49:12.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\Client\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwHEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T23:47:13.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "Controllers\\GamesController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAIwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:13:54.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateGame.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\UpdateGame.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\UpdateGame.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\UpdateGame.cshtml.cs",
+              "RelativeToolTip": "..\\Client\\Pages\\UpdateGame.cshtml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwD8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:10:28.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateGame.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\UpdateGame.cshtml",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\UpdateGame.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\UpdateGame.cshtml",
+              "RelativeToolTip": "..\\Client\\Pages\\UpdateGame.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T23:09:14.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AllGames.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\AllGames.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\AllGames.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\AllGames.cshtml.cs",
+              "RelativeToolTip": "..\\Client\\Pages\\AllGames.cshtml.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAiwGsAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:07:07.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AllGames.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\AllGames.cshtml",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\AllGames.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\AllGames.cshtml",
+              "RelativeToolTip": "..\\Client\\Pages\\AllGames.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwEcAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T23:06:18.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "..\\Client\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T23:05:29.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Client\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Client\\Pages\\Index.cshtml",
+              "RelativeToolTip": "..\\Client\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T20:16:49.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Server.csproj",
               "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Server.csproj",
               "RelativeDocumentMoniker": "Server.csproj",
               "ToolTip": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Server.csproj",
               "RelativeToolTip": "Server.csproj",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-21T20:13:31.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T20:13:31.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Pages\\Index.cshtml",
@@ -89,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Pages\\Login.cshtml.cs",
@@ -101,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -113,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Model\\UserDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Model\\UserDTO.cs",
@@ -125,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Pages\\Shared\\_Layout.cshtml",
@@ -137,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "Signin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Pages\\Signin.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Pages\\Signin.cshtml.cs",
@@ -149,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -161,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Model\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Model\\RegisterDTO.cs",
@@ -173,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "SecurityTools.cs",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Tools\\SecurityTools.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Tools\\SecurityTools.cs",
@@ -185,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
               "Title": "TokenHelper.cs",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Tools\\TokenHelper.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Tools\\TokenHelper.cs",
@@ -197,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Program.cs",
@@ -209,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "XatClient.cshtml",
               "DocumentMoniker": "C:\\Users\\isard\\source\\repos\\WebApplication2\\Pages\\XatClient.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\Pages\\XatClient.cshtml",
@@ -221,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -229,12 +489,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAIgAAAAAAAAAAAAgwDIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T10:08:48.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T10:08:48.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "XatHub.cs",
               "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Santiago\\m09-t1-pr2-apirest-HWL-itb-Santiago\\Server\\XatHubs\\XatHub.cs",
               "RelativeDocumentMoniker": "XatHubs\\XatHub.cs",

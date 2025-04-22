@@ -66,9 +66,6 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-page="/AllGames">Todos los Juegos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Privacy">Privacidad</a>
-                        </li>
 
                         @if (Client.Tools.TokenHelper.IsTokenSession(HttpContextAccessor.HttpContext.Session.GetString("AuthToken")))
                         {
@@ -78,6 +75,15 @@
                             <li class="nav-item">
                                 <a class="nav-link" asp-page="/XatClient">Chat</a>
                             </li>
+                            @if (Client.Tools.TokenHelper.GetUserRole(HttpContextAccessor.HttpContext.Session.GetString("AuthToken")) == "Admin")
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/CreateGame">Crear Juego</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/SigninAdmin">Registrar Admin</a>
+                                </li>
+                            }
                             <li class="nav-item">
                                 <a class="nav-link text-danger" asp-page="/Logout">Cerrar Sesión</a>
                             </li>
@@ -106,7 +112,6 @@
     <footer class="text-muted text-center border-top">
         <div class="container">
             <span>&copy; 2025 - Desarrollado por Santiago Vergara Rodríguez | DAMVi2 - </span>
-            <a asp-page="/Privacy">Política de Privacidad</a>
         </div>
     </footer>
 
