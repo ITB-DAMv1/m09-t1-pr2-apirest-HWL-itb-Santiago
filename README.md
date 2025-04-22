@@ -11,6 +11,48 @@ Este repositorio contiene un backend construido con una API REST y un frontend u
 Para iniciar esta aplicacion debes buscar primero la solucion del proyecto, la cual se encuentra dentro de la carpeta Server y se llama **GameJamITB_SantiagoVergaraRodriguez.sln**
 SE DEBE DE TENER UNA BASE DE DATOS SQL LLAMADA "GamesDatabase" o de lo contrario, modificar la ruta desde el appsettings.json
 
+## 📚 Estructura de la Base de Datos
+
+La base de datos se compone de tres entidades principales:
+
+### 1. `Games`
+
+Contiene la información esencial de cada videojuego:
+
+- `Id`: Identificador único del juego.
+- `Titulo`: Nombre del juego.
+- `Descripcion`: Descripción del contenido o historia.
+- `Desarrollador`: Nombre del estudio o creador.
+- `Fecha_Lanzamiento`: Fecha de publicación.
+- `Imagen`: URL o ruta de la imagen asociada.
+- `Numero_Votos`: Total acumulado de votos (opcional, puede calcularse dinámicamente).
+
+---
+
+### 2. `ApplicationUser`
+
+Clase que extiende `IdentityUser` de ASP.NET Core Identity, e incluye:
+
+- Propiedades estándar de usuario (correo, contraseña, etc.).
+- Campos personalizados como `NombreCompleto`, `Avatar`, etc.
+- Asociaciones con las acciones del usuario (votos, favoritos, reviews futuras).
+
+Esto permite autenticación segura y control de roles para funcionalidades exclusivas (como acceso a páginas de administrador).
+
+---
+
+### 3. `UserGameVotes` (Tabla intermedia)
+
+Gestiona la relación muchos-a-muchos entre usuarios y juegos votados:
+
+- `UserId`: Clave foránea a `ApplicationUser`.
+- `GameId`: Clave foránea a `Game`.
+- `ValorVoto`: Valor del voto emitido (por ejemplo, de 1 a 5 estrellas o like/dislike).
+
+Esta tabla:
+
+- Garantiza que un usuario solo pueda votar una vez por juego.
+- Permite futuras ampliaciones como timestamps o comentarios.
 
 ## Estructura del Backend
 
