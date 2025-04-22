@@ -99,5 +99,14 @@ namespace Client.Pages
 
             return RedirectToPage();
         }
+
+        public async Task<IActionResult> OnPostUpdate(int id)
+        {
+            var token = HttpContext.Session.GetString("AuthToken");
+            if (!Tools.TokenHelper.IsTokenSession(token)) return RedirectToPage("/Login");
+            var client = _httpClientFactory.CreateClient("ApiGames");
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            return RedirectToPage("/UpdateGame", new { id });
+        }
     }
 }

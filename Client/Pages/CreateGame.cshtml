@@ -1,0 +1,56 @@
+﻿@page
+@model Client.Pages.CreateGameModel
+@{
+	ViewData["Title"] = "Crear Videojuego";
+	var loggedIn = Client.Tools.TokenHelper.IsTokenSession(HttpContext.Session.GetString("AuthToken"));
+	var rol = Client.Tools.TokenHelper.GetUserRole(HttpContext.Session.GetString("AuthToken"));
+}
+
+@if (!loggedIn || rol != "Admin")
+{
+	<div class="container mt-5">
+		<div class="alert alert-danger shadow-sm p-3 rounded">
+			No tens permisos per accedir a aquesta pàgina.
+		</div>
+	</div>
+}
+else
+{
+	<div class="container mt-5">
+		<div class="card shadow-lg rounded-4">
+			<div class="card-body p-4">
+				<h2 class="card-title mb-4">Crear Joc</h2>
+				<form method="post" class="needs-validation" novalidate>
+					<div class="mb-3">
+						<label asp-for="Game.Titulo" class="form-label fw-bold"></label>
+						<input asp-for="Game.Titulo" class="form-control rounded-3" />
+						<span asp-validation-for="Game.Titulo" class="text-danger small"></span>
+					</div>
+					<div class="mb-3">
+						<label asp-for="Game.Descripcion" class="form-label fw-bold"></label>
+						<textarea asp-for="Game.Descripcion" class="form-control rounded-3" rows="4"></textarea>
+						<span asp-validation-for="Game.Descripcion" class="text-danger small"></span>
+					</div>
+					<div class="mb-3">
+						<label asp-for="Game.Desarrollador" class="form-label fw-bold"></label>
+						<input asp-for="Game.Desarrollador" class="form-control rounded-3" />
+						<span asp-validation-for="Game.Desarrollador" class="text-danger small"></span>
+					</div>
+					<div class="mb-3">
+						<label asp-for="Game.Fecha_Lanzamiento" class="form-label fw-bold"></label>
+						<input asp-for="Game.Fecha_Lanzamiento" type="date" class="form-control rounded-3" />
+						<span asp-validation-for="Game.Fecha_Lanzamiento" class="text-danger small"></span>
+					</div>
+					<div class="mb-3">
+						<label asp-for="Game.Imagen" class="form-label fw-bold"></label>
+						<input asp-for="Game.Imagen" class="form-control rounded-3" />
+						<span asp-validation-for="Game.Imagen" class="text-danger small"></span>
+					</div>
+					<div class="text-end">
+						<button type="submit" class="btn btn-primary px-4 py-2 rounded-3 shadow-sm">Crear</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+}

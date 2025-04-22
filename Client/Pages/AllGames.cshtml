@@ -45,8 +45,6 @@
                             </td>
                             <td>
                                 <div class="d-flex flex-wrap gap-2">
-                                    @if (loggedIn)
-                                    {
                                         <form method="post" asp-page-handler="Vote" asp-route-id="@game.Id" class="d-inline">
                                             <button type="submit" class="btn btn-outline-success btn-sm" title="Votar">
                                                 <i class="bi bi-hand-thumbs-up-fill"></i>
@@ -57,7 +55,6 @@
                                                 <i class="bi bi-hand-thumbs-down-fill"></i>
                                             </button>
                                         </form>
-                                    }
                                     <a asp-page="/GameDetails" asp-route-id="@game.Id" class="btn btn-outline-primary btn-sm" title="Ver más">
                                         <i class="bi bi-eye-fill"></i>
                                     </a>
@@ -69,6 +66,11 @@
                                     <form method="post" asp-page-handler="Delete" asp-route-id="@game.Id" class="d-inline">
                                         <button type="submit" class="btn btn-danger btn-sm" title="Eliminar">
                                             <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </form>
+                                    <form method="post" asp-page-handler="Update" asp-route-id="@game.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-secondary btn-sm" title="Eliminar">
+                                            <i class="bi bi-pencil-fill"></i>
                                         </button>
                                     </form>
                                 </td>
